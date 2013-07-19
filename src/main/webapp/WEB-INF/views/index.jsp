@@ -75,7 +75,7 @@
 									<tr>
 										<td>${member.id}</td>
 										<td>${member.name}</td>
-										<td>${member.email}</td>
+										<td>Confidential</td>
 										<td>${member.phoneNumber}</td>
 										<td><a href="<c:url value="/rest/members/${member.id}"/>">/rest/members/${member.id}</a></td>
 								</c:forEach>
